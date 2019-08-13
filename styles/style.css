@@ -1,0 +1,172 @@
+
+#home_bg{
+    background-image: url("../images/home_bg.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.logo_name{
+    font-family: sans-serif;
+    font-size: 2em;
+    color: white;
+    position: relative;
+    left: 3.5em;
+}
+#gal_logo{
+    color: white;
+    font-size: 4em;
+    font-family: sans-serif;
+    padding-top: 5.1em;
+    position: relative;
+    left: 12.5em;
+}
+.menu_icon{
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+}
+div.left_box{
+    border: 0.4em;
+    border-style: solid;
+    border-color: white;
+    height: 30em;
+    position: relative;
+    left: 7em;
+}
+div.right_box{
+    border: 0.4em;
+    border-style: solid;
+    border-color: white;
+    height: 30em;
+    position: relative;
+    right: 7em;
+}
+div.right_small_box{
+    border: 0.4em;
+    border-style: solid;
+    border-color: white;
+    height: 22em;
+    position: relative;
+    right: 45em;
+    top: 3.5em;
+}
+.subpage_bg{
+    background-color: black;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.sub_menu{
+    color: white;
+    font-size: 2em;
+    font-family: sans-serif;
+    text-align: right;
+    position: relative;
+    right: 6em;
+    top: 4.5em;
+}
+.small_sub_menu{
+    color: white;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-align: right;
+    position: relative;
+    right: 6em;
+    top: 4.5em;
+}
+.link_underline{
+    text-decoration: none;
+}
+#arrow_back{
+    position: absolute;
+    top: 9em;
+    right: 0.5em;
+}
+#arrow_back_album{
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+}
+
+
+#album1_button{
+    position: absolute;
+    top: -2.2em;
+    right: -22em;
+
+}
+#album2_button{
+    position: absolute;
+    top: 3.4em;
+    right: -30.8em;
+
+}
+#album3_button{
+    position: absolute;
+    top: 8.3em;
+    right: -22em;
+
+}
+#album4_button{
+    position: absolute;
+    top: 13.5em;
+    right: -30.8em;
+}
+table, th, td {
+    border: 1px solid rgb(133, 133, 133);
+    border-collapse: collapse;
+    border-style: solid;
+    font-family: sans-serif;
+}
+th, td {
+    padding: 10px;
+    text-align: center;    
+}
+th{
+    font-style: italic;
+}
+#table_style th{
+    background-color: black;
+    color: white;
+}
+#table_style tr:nth-child(odd){
+    background-color: #fff;
+}
+#table_style tr:nth-child(even){
+    background-color: #eee;
+}
+#table_style{
+    width: 100%;
+    position: relative;
+    top: 2em;
+}
+#about_me_bg{
+    background-color: #F4E7E7;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.list_style{
+    display: table;
+    margin: 0 auto;
+}
+#form_div{
+    text-align: center;
+}
+
